@@ -1,0 +1,28 @@
+.error{
+    color: red;
+}
+
+body{
+    background-color: rgb(71, 214, 224);
+}
+
+.form-set{
+    background-color: white;
+    width:40%;
+    height:100%;
+    margin-top: 10rem;
+}
+
+.btn{
+    color: #fff;
+    background: #a87cea;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 1.7rem;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  .btn:hover{
+    background: #e658ce;
+  }

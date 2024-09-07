@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'vc/css/style.css' %}">
+    <title>Video Call</title>
+</head>
+<body>
+    <center>
+    <div class="form-set1">
+        <h1>Welcome,{{name}}</h1>
+        <a href="{% url 'meeting' %}"><input type="button"  class='btn' value="New Meeting"></a>
+        <a href="{% url 'join' %}"><input type="button" class='btn' value="Join Meeting"></a>
+        <a href="{% url 'logout' %}"><input type="button" class='btn' value="logout"></a>
+    </div>
+    </center>
+
+</body>
+<h6>Created by SohanBheel | 2024</h6>
+</html>
